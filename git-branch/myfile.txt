@@ -2,6 +2,11 @@
 
 1. git branch dev 建立分支 -> git branch 查看目前具有的分支
 
-2. git checkout dev 切換分支 -> 修改內容 -> 提交看看會發生什麼事
+2. git checkout <branch> 切換分支 -> 修改內容 -> 提交看看會發生什麼事
 
 add 修改加入書籤
+
+3. git merge <branch>，目前要(git checkout master)由 master 合併 dev，達到 fast-forward 合併。
+    問題1：換分支前提交或儲存您的修改，所以沒提交之前切不回去
+        -> 提交之後再切換
+        -> 可以用 stash 解決
