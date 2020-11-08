@@ -14,3 +14,6 @@ add 修改加入書籤
 [補充]：合併完之後可以查看一下 git status，有需要的話必須再 git push一次（您的分支領先 'origin/master' 共 2 個提交），猜測是讓 master 的 HEAD 到目前的紀錄
 
 四. git branch -d <branch>，用於刪除分支
+
+--- 平行操作 ---
+commit 記錄索引的狀態
