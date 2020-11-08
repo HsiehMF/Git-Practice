@@ -29,3 +29,5 @@ pull 取得遠端數據庫的內容
     To abort and get back to the state before "git rebase", run "git rebase --abort".
     不能應用 707a0b6... create pull description
 解決方法為修改衝突的地方，然後再次提交：git add . -> git rebase --continue。
+
+最後，在 rebase 後執行 git merge issue2，因為 issue2 領先 master 一個提交。
