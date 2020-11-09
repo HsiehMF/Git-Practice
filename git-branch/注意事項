@@ -1,0 +1,4 @@
+一. 有些 commit 在 git reset --hard HEAD~ 的時候被消除了
+二. 實作到 issue2 時，發現教學其實並沒有 push，只有 commit 的動作，而且是在本地端 merge 跟 rebase，之後再 git push 到遠端資料庫
+三. 總之，這些動作沒有 git push 的話，GitHub 這邊是不會變的，如果想要觀察這些變化必須透過 SourceTree 等輔助工具
+四. 小小疑問點：分支除了我建立的 dev 以外，issue1, issue2 並沒有出現在 GitHub 的分支中
